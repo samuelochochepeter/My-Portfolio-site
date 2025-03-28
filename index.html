@@ -1,1 +1,171 @@
-"<h1>My Portfolio Page</h1>" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Ochoche Peter - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Samuel Ochoche Peter</h1>
+        <p>Web & Software Developer | Data Scientist | Tech Instructor | Entrepreneur</p>
+    </header>
+    
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Samuel Ochoche Peter, a Computer Science graduate, Web & Software Developer, and Data Scientist.  
+            With expertise in Python, HTML, CSS, PHP, MySQL, Bootstrap, and Flask, I specialize in building innovative web applications and data-driven solutions.  
+            As a passionate Tech Entrepreneur and Instructor, I am dedicated to IT training and leveraging technology to solve real-world problems.
+        </p>
+        
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Founder of SamOchoche.P Digital Hub</li>
+            <li>Instructor at EL Academy Abuja (Python Programming, 2023)</li>
+            <li>Assistant Developer at WebPryme (Remote)</li>
+            <li>Software Director of NACOS (FUK Chapter, 2024)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Web & Software Development:</strong> HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, Flask .......</li>
+            <li><strong>Python Programming & Data Science:</strong> Pandas, NumPy, Matplotlib, Seaborn ........</li>
+            <li><strong>Machine Learning & AI:</strong> Data Analysis, Visualization, Prediction, and Report Presentation and more ...</li>
+            <li><strong>Database Management:</strong> MySQL, SQL</li>
+            <li><strong>IT Training & Tech Entrepreneurship</strong></li>
+            <li><strong>Basic Graphic Design</strong></li>
+        </ul>
+    </section>
+    
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <div class="certificate-container">
+          <div class="certificate">
+              <p>Desktop Publishing - Communication Network Ltd (2019)</p>
+              <img src="./certificates/Desktop Diploma.png" alt="Desktop Certificate">
+              <a href="./certificates/Desktop Diploma.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Digital Marketing - Life Servers Ambassadors International (2019)</p>
+              <img src="./certificates/Digital Marketing.png" alt="Digital Marketing Certificate">
+              <a href="./certificates/Digital Marketing.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Certificate of Participation in the INEC Continuous Voters Registration - JDPC (2022)</p>
+              <img src="./certificates/JDPC Certificate.png" alt="JDPC Certificate">
+              <a href="./certificates/JDPC Certificate.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Introduction to Front-End - Meta (2023)</p>
+              <img src="./certificates/FRONT-END DEVELOPMENT.png" alt="Front-End Certificate">
+              <a href="./certificates/FRONT-END DEVELOPMENT.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Introduction to Back-End - Meta (2023)</p>
+              <img src="./certificates/BACKEND DEVELOPMENT.png" alt="Back-End Certificate">
+              <a href="./certificates/BACKEND DEVELOPMENT.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Programming in Python - Meta (2023)</p>
+              <img src="./certificates/PYTHON PROGRAMMING.png" alt="Python Certificate">
+              <a href="./certificates/PYTHON PROGRAMMING.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Python Programming - EL Academy (2023)</p>
+              <img src="./certificates/El Academy Python.jpg" alt="Python Certificate">
+              <a href="./certificates/El Academy Python.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Machine Learning with Python - FreeCodeCamp (2023)</p>
+              <img src="./certificates/MACHINE LEARNING CERTIFICATE.png" alt="Machine Learning Certificate">
+              <a href="./certificates/MACHINE LEARNING CERTIFICATE.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Scientific Computing with Python - FreeCodeCamp (2023)</p>
+              <img src="./certificates/SCIENTIFIC COMPUTING WITH PYTHON CERTIFICATE.png" alt="Python Certificate">
+              <a href="./certificates/SCIENTIFIC COMPUTING WITH PYTHON CERTIFICATE.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Seminar on Artificial Intelligence - NACOS (2024)</p>
+              <img src="./certificates/Seminar Certificate in AI and Machine Learning.jpg" alt="AI Seminar">
+              <a href="./certificates/Seminar Certificate in AI and Machine Learning.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Seminar on Blockchain Technology and Cryptocurrency - NACOS (2024)</p>
+              <img src="./certificates/Seminar Certificate on Blockchain.jpg" alt="Blockchain Seminar">
+              <a href="./certificates/Seminar Certificate on Blockchain.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Seminar on Cybersecurity - NACOS (2024)</p>
+              <img src="./certificates/Seminar Certificate on Cybersecurity.jpg" alt="Cybersecurity Seminar">
+              <a href="./certificates/Seminar Certificate on Cybersecurity.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Certificate of Achievement as Software Director - NACOS (2024)</p>
+              <img src="./certificates/NACOS SOFTWARE DIRECTOR.png" alt="Software Director">
+              <a href="./certificates/NACOS SOFTWARE DIRECTOR.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Agile Project Management - HP (2024)</p>
+              <img src="./certificates/HP Certificate on Agile Project.png" alt="Agile Project Management">
+              <a href="./certificates/HP Certificate on Agile Project.png" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Degree Certificate - Federal University of Kashere Gombe State (2024)</p>
+              <img src="./certificates/Degree Statement of Result.jpg" alt="Degree Certificate">
+              <a href="./certificates/Degree Statement of Result.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Certificate of Award for Inter Platoon Debate at NYSC Camp Kaduna State (2025)</p>
+              <img src="./certificates/NYSC.jpg" alt="NYSC Award">
+              <a href="./certificates/NYSC.jpg" download>Download Certificate</a>
+          </div>
+          <div class="certificate">
+              <p>Data Analysis with Python - FreeCodeCamp (2025)</p>
+              <img src="./certificates/DATA ANALYSIS WITH PYTHON CERTIFICATE.png" alt="Data Analysis Certificate">
+              <a href="./certificates/DATA ANALYSIS WITH PYTHON CERTIFICATE.png" download>Download Certificate</a>
+          </div>
+      </div>
+  </section>
+  
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="status"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Samuel Ochoche Peter. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
