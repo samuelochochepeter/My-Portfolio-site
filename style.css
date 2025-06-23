@@ -176,3 +176,55 @@ footer {
    background: #2c3e50;
    color: white;
 }
+/* Project Section Styling */
+#projects {
+    text-align: center;
+}
+
+.project {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.project h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.project p {
+    line-height: 1.6;
+    color: #444;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* ✅ Reduced image size for certificate section */
+.certificate img {
+    width: 180px;     /* adjust this size as needed */
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+#skills ul li {
+  margin-bottom: 15px; /* Adds space below each skill item */
+}
+
+#experience ul li {
+  margin-bottom: 15px; /* Adds space below each skill item */
+}
