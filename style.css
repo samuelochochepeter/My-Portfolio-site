@@ -228,3 +228,12 @@ footer {
 #experience ul li {
   margin-bottom: 15px; /* Adds space below each skill item */
 }
+
+#experience h4 {
+  background-color: rgb(208, 236, 84);
+  margin-top: 25px;
+  color: #2c3e50;
+}
+#experience ul {
+  margin-left: 20px;
+}
